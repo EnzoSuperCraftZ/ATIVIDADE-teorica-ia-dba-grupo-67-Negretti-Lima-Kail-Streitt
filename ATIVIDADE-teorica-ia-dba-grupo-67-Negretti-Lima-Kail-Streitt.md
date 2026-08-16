@@ -1,6 +1,6 @@
 # Atividade Teórica: Usuários Especialistas, IA e Distribuição Segura de Dados
 
-**Aluno(s):** Caio Negretti Honorato, Eduardo Guimarães Lima, Enzo Kail Vizalli, Pedro Streitt 
+**Aluno(s):** Caio Negretti Honorato, Eduardo Guimarães Lima, Enzo Kail Vizalli e Pedro Streitt 
 **Turma:** Banco de Dados 2026
 **Data:** 16/08/2026
 **Repositório Git:** https://github.com/usuario/atividade-bd
@@ -66,12 +66,12 @@ Menor privilégio, views, roles customizadas, controle de execução, auditoria,
 conformidade (LGPD).
 
 ### 1.5 Atuação do DBA no cenário de IA
-Monitoramento, políticas de acesso, auditoria, orientação aos usuários,
-performance e backups.
+O DBA 2.0 utiliza inteligência artificial para antecipar gargalos, detectar anomalias e realizar ajustes proativos de performance, como otimização de consultas e índices, em vez de apenas reagir a falhas.
+Com a IA lidando com a coleta de dados, o DBA assume a responsabilidade crítica de curar políticas de dados, definindo quem acessa o quê e por quanto tempo, garantindo a trilha de auditoria e a conformidade com regulamentações como a LGPD.
+O DBA desenha estratégias de backup e recovery com validação humana em cenários de alta criticidade, assegurando a disponibilidade e a integridade dos dados.  
 
 ### 1.6 Análise crítica: qual a melhor abordagem?
-Posição fundamentada do grupo sobre como distribuir dados com segurança
-no contexto do uso de IA.
+A melhor abordagem para distribuir dados com segurança no contexto do uso de IA é adotar uma estratégia integrada e baseada em risco que prioriza a proteção dos dados antes da implementação dos modelos. Isso envolve classificar os dados sensíveis, restringir o acesso através de políticas rigorosas de governança e utilizar técnicas de privacidade como mascaramento de dados e aprendizado federado para evitar a exposição de informações críticas.
 
 ## 2. Exemplos e Casos
 
@@ -85,6 +85,12 @@ https://www.alura.com.br/artigos/administrador-de-banco-de-dados?srsltid=AfmBOoo
 https://ebaconline.com.br/blog/tipos-de-programadores-seo
 
 https://pt.linkedin.com/pulse/modelagem-de-bancos-dados-sem-segredos-parte-04-barreto-mouta-vusnf
+
+https://www.mpgcamb.com/wp-content/uploads/2024/12/Abraham-Silberschatz-Henry-F.-Korth-S.-Sudarshan-Database-System-Concepts-McGraw-Hill-Education-2019.pdf
+
+https://www.devmedia.com.br/atividades-de-um-dba-e-questoes-sobre-performance/5068
+
+https://www.varonis.com/pt-br/blog/ai-data-security
 
 ## 4. Conclusões
 
