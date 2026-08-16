@@ -16,7 +16,7 @@ DBA, ou Database Administrator (Administrador de Banco de Dados), é o profissio
 
 ### 1.2 Perfis de usuários de banco de dados
 
-##### Programadores de Aplicações  
+#### Programadores de Aplicações  
     &nbsp;&nbsp;&nbsp;&nbsp;São os profissionais de TI que escrevem rotinas, programas e interfaces interagir com o banco de dados.  
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vantagens:  
           * Conseguem criar rotinas complexas que processam milhões de registros sem intervenção humana.  
@@ -26,7 +26,7 @@ DBA, ou Database Administrator (Administrador de Banco de Dados), é o profissio
           * Qualquer alteração na estrutura do banco exige que eles atualizem e testem o código do sistema.  
           * Às vezes focam tanto na interface do aplicativo que se esquecem de otimizar a lógica direta do banco de dados.  
     
-##### Usuários Sofisticados  
+#### Usuários Sofisticados  
     &nbsp;&nbsp;&nbsp;&nbsp;São engenheiros, analistas de negócios, cientistas de dados ou estatísticos. Eles não criam aplicativos para terceiros, mas conhecem profundamente a linguagem SQL e ferramentas de análise para extrair informações por conta própria.  
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vantagens:  
           * Não dependem do setor de TI ou de programadores para gerar relatórios complexos ou gráficos de tendências.  
@@ -36,7 +36,7 @@ DBA, ou Database Administrator (Administrador de Banco de Dados), é o profissio
           * Podem executar consultas pesadas e travar o desempenho do banco de produção.  
           * Como criam suas próprias consultas, correm o risco de ignorar regras de governança ou interpretar dados de forma isolada.  
 
-##### Usuários Especialistas  
+#### Usuários Especialistas  
     &nbsp;&nbsp;&nbsp;&nbsp;São profissionais que utilizam o banco de dados para aplicações altamente complexas e específicas fora do ambiente tradicional de negócios. Exemplos incluem engenheiros de sistemas de Informação Geográfica, pesquisadores de inteligência artificial ou modeladores científicos.  
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vantagens:  
           * Sabem manipular tipos de dados complexos, como coordenadas geoespaciais, imagens médicas ou grandes volumes de texto não estruturado.  
@@ -45,7 +45,7 @@ DBA, ou Database Administrator (Administrador de Banco de Dados), é o profissio
           * Podem ser brilhantes na área específica deles, mas demonstram pouca familiaridade com o funcionamento geral, segurança ou administração do SGBD.  
           * As soluções criadas por eles costumam ser difíceis de integrar com os sistemas operacionais comuns da empresa.  
 
-##### Usuários Navegantes  
+#### Usuários Navegantes  
     &nbsp;&nbsp;&nbsp;&nbsp;É a maior parte dos usuários de uma empresa, como vendedores, caixas, atendentes de suporte. Eles interagem com o banco de dados sem saber que ele existe, utilizando apenas menus, botões e formulários prontos da aplicação.  
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vantagens:  
           * Não precisam entender de SQL, código ou modelagem de dados para realizar o trabalho diário.  
