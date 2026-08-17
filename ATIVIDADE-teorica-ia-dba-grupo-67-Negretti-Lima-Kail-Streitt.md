@@ -8,7 +8,7 @@
 
 ## Resumo Executivo
 
-Breve descrição do tema e da posição adotada pelo grupo.
+Este trabalho examina os impactos da integração de Inteligência Artificial generativa no acesso a bancos de dados por usuários especialistas, destacando os riscos de consultas incorretas, degradação de desempenho e vazamento de dados confidenciais. O grupo argumenta que a IA não substitui o DBA, mas eleva seu papel estratégico na governança. A distribuição segura exige uma abordagem integrada baseada no Princípio do Menor Privilégio, uso de roles customizadas, views para mascaramento, controle de execução de funções e auditoria ativa sob supervisão humana contínua.
 
 ## 1. Desenvolvimento Teórico
 
