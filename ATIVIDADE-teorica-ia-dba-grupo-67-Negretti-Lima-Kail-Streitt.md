@@ -120,6 +120,8 @@ A melhor abordagem para distribuir dados com segurança no contexto do uso de IA
 
 ## 3. Referências
 
+## 3. Referências
+
 https://www.alura.com.br/artigos/administrador-de-banco-de-dados?srsltid=AfmBOooZuNypvyRAtCszHvCazJQmUqS_ebldSr5QJD0uQSHIVsnFhl68
 
 https://ebaconline.com.br/blog/tipos-de-programadores-seo
@@ -131,6 +133,36 @@ https://www.mpgcamb.com/wp-content/uploads/2024/12/Abraham-Silberschatz-Henry-F.
 https://www.devmedia.com.br/atividades-de-um-dba-e-questoes-sobre-performance/5068
 
 https://www.varonis.com/pt-br/blog/ai-data-security
+
+https://www.getwren.ai/post/reducing-hallucinations-in-text-to-sql-building-trust-and-accuracy-in-data-access 
+
+https://www.mend.io/blog/2025-owasp-top-10-for-llm-applications-a-quick-guide/
+
+https://aembit.io/blog/owasp-top-10-llm-risks-explained/
+
+https://genai.owasp.org/llm-top-10/
+
+https://www.postgresql.org/docs/current/user-manag.html
+
+https://www.postgresql.org/docs/current/sql-grant.html
+
+https://www.postgresql.org/docs/current/tutorial-views.html
+
+https://www.postgresql.org/docs/current/sql-createfunction.html
+
+https://www.pgaudit.org/
+
+https://www.morganstanley.com/press-releases/morgan-stanley-research-announces-askresearchgpt?utm_source=
+
+https://www.gov.uk/government/publications/intellectual-property-ip-guidance-for-the-nhs-in-england/case-studies?utm_source=
+
+https://csrc.nist.gov/projects/risk-management/about-rmf/assess-step/assessment-cases-download-page?utm_source=
+
+https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10?utm_source
+
+https://www.nist.gov/itl/ai-risk-management-framework?utm_source
+
+
 
 ## 4. Conclusões
 
