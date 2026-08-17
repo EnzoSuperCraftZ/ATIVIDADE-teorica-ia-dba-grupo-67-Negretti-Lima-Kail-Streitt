@@ -1,8 +1,8 @@
 # Atividade Teórica: Usuários Especialistas, IA e Distribuição Segura de Dados
 
 **Aluno(s):** Caio Negretti Honorato, Eduardo Guimarães Lima, Enzo Kail Vizalli e Pedro Streitt 
-**Turma:** Banco de Dados 2026
-**Data:** 16/08/2026
+**Turma:** Banco de Dados 2026  
+**Data:** 16/08/2026  
 **Repositório Git:** https://github.com/EnzoSuperCraftZ/ATIVIDADE-teorica-ia-dba-grupo-67-Negretti-Lima-Kail-Streitt
 
 
@@ -113,12 +113,12 @@ O DBA desenha estratégias de backup e recovery com validação humana em cen�
 A melhor abordagem para distribuir dados com segurança no contexto do uso de IA é adotar uma estratégia integrada e baseada em risco que prioriza a proteção dos dados antes da implementação dos modelos. Isso envolve classificar os dados sensíveis, restringir o acesso através de políticas rigorosas de governança e utilizar técnicas de privacidade como mascaramento de dados e aprendizado federado para evitar a exposição de informações críticas.
 
 ## 2. Exemplos e Casos
-###Alguns exemplos dados são:
-1- A Morgan Stanley(Empresa global de serviços fianceiros sediada em Nova York) utiliza inteligência artificial para ajudar seus consultores financeiros a encontrar informações em sua grande base de conhecimento. A IA permite que os especialistas façam perguntas em linguagem natural e recebam respostas baseadas em documentos internos. Nesse caso, é necessário controlar quais informações cada usuário pode acessar, evitando que a IA disponibilize dados confidenciais para pessoas sem autorização.
-2- O sistema de saúde britânico NHS utilizou IA para prever quais pacientes poderiam faltar às consultas. Para isso, foram utilizados dados anonimizados, evitando a exposição de informações pessoais e clínicas desnecessárias. O caso demonstra a importância de filtrar e proteger os dados antes de disponibilizá-los para sistemas de IA.
-3- O NIST, órgão de tecnologia e padrões dos Estados Unidos, criou o AI Risk Management Framework, que apresenta orientações para identificar e controlar riscos relacionados ao uso de IA. Entre as recomendações estão o controle de acesso, proteção de dados, monitoramento das atividades e princípio do menor privilégio. Essas medidas ajudam a garantir que a IA tenha acesso somente aos dados necessários.
+Alguns exemplos dados são:
 
-## 3. Referências
+1. A Morgan Stanley(Empresa global de serviços fianceiros sediada em Nova York) utiliza inteligência artificial para ajudar seus consultores financeiros a encontrar informações em sua grande base de conhecimento. A IA permite que os especialistas façam perguntas em linguagem natural e recebam respostas baseadas em documentos internos. Nesse caso, é necessário controlar quais informações cada usuário pode acessar, evitando que a IA disponibilize dados confidenciais para pessoas sem autorização.  
+2. O sistema de saúde britânico NHS utilizou IA para prever quais pacientes poderiam faltar às consultas. Para isso, foram utilizados dados anonimizados, evitando a exposição de informações pessoais e clínicas desnecessárias. O caso demonstra a importância de filtrar e proteger os dados antes de disponibilizá-los para sistemas de IA.  
+3. O NIST, órgão de tecnologia e padrões dos Estados Unidos, criou o AI Risk Management Framework, que apresenta orientações para identificar e controlar riscos relacionados ao uso de IA. Entre as recomendações estão o controle de acesso, proteção de dados, monitoramento das atividades e princípio do menor privilégio. Essas medidas ajudam a garantir que a IA tenha acesso somente aos dados necessários.
+
 
 ## 3. Referências
 
