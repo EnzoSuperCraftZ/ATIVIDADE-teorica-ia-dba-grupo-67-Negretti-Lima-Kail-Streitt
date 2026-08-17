@@ -113,9 +113,10 @@ O DBA desenha estratégias de backup e recovery com validação humana em cen�
 A melhor abordagem para distribuir dados com segurança no contexto do uso de IA é adotar uma estratégia integrada e baseada em risco que prioriza a proteção dos dados antes da implementação dos modelos. Isso envolve classificar os dados sensíveis, restringir o acesso através de políticas rigorosas de governança e utilizar técnicas de privacidade como mascaramento de dados e aprendizado federado para evitar a exposição de informações críticas.
 
 ## 2. Exemplos e Casos
-
-Exemplo de view `clientes_visiveis` no PostgreSQL e exemplo de role/permissão.
-Um caso real: sistema de vendas, clínica ou biblioteca.
+###Alguns exemplos dados são:
+1- A Morgan Stanley(Empresa global de serviços fianceiros sediada em Nova York) utiliza inteligência artificial para ajudar seus consultores financeiros a encontrar informações em sua grande base de conhecimento. A IA permite que os especialistas façam perguntas em linguagem natural e recebam respostas baseadas em documentos internos. Nesse caso, é necessário controlar quais informações cada usuário pode acessar, evitando que a IA disponibilize dados confidenciais para pessoas sem autorização.
+2- O sistema de saúde britânico NHS utilizou IA para prever quais pacientes poderiam faltar às consultas. Para isso, foram utilizados dados anonimizados, evitando a exposição de informações pessoais e clínicas desnecessárias. O caso demonstra a importância de filtrar e proteger os dados antes de disponibilizá-los para sistemas de IA.
+3- O NIST, órgão de tecnologia e padrões dos Estados Unidos, criou o AI Risk Management Framework, que apresenta orientações para identificar e controlar riscos relacionados ao uso de IA. Entre as recomendações estão o controle de acesso, proteção de dados, monitoramento das atividades e princípio do menor privilégio. Essas medidas ajudam a garantir que a IA tenha acesso somente aos dados necessários.
 
 ## 3. Referências
 
@@ -133,8 +134,17 @@ https://www.varonis.com/pt-br/blog/ai-data-security
 
 ## 4. Conclusões
 
-Aprendizados, reflexões e principais pontos observados pelo grupo.
-git branch -M main
+Por conta da realização desta atividade permitiu compreender que a utilização de Inteligência Artificial para realizar um processo juntamente a um banco de dados exige combinação entre conhecimento técnico, contole de acesso e governança. Logo, foi possível compreender o papel do DBA(Database Administrador)como responsável não apenas pela manutenção e disponibilidade do banco, mas também pela proteção, integridade, desempenho e definição das politicas de acesso aos dados.
+Ademais foi possível diferenciar os principais perfis de usuários de banco de dados e compreender por que o usuário especialista merece atenção nesse cenário.Esses usuários trabalham com aplicações e dados complexos e podem realizar consultas de alto custo, especialmente quando utilizam ferramentas de IA capazes de gerar consultas automaticamente. Dessa forma, a IA pode aumentar a produtividade, mas também pode gerar consultas incorretas, expor dados sensíveis, prejudicar o desempenho do banco ou permitir acessos indevidos.
+
+Um dos principais aprendizados foi a importância do princípio do menor privilégio, segundo o qual cada usuário, aplicação ou IA deve possuir somente as permissões necessárias para realizar suas funções. No PostgreSQL, esse princípio pode ser aplicado por meio de roles, GRANT e REVOKE, evitando que usuários ou aplicações tenham privilégios administrativos desnecessários. As views também se mostraram importantes, pois permitem disponibilizar somente as informações necessárias, evitando o acesso direto às tabelas que contêm dados sensíveis.
+
+Outro aprendizado importante foi a necessidade de auditoria e rastreabilidade. Recursos como o pgAudit permitem registrar operações realizadas no banco, contribuindo para identificar acessos indevidos, investigar incidentes e aumentar a responsabilidade sobre o uso dos dados. Além disso, a atividade mostrou a relação entre segurança de bancos de dados e a LGPD, destacando a necessidade de medidas técnicas e administrativas para proteger dados pessoais e sensíveis.
+
+Os exemplos analisados, como o uso de IA pela Morgan Stanley, a utilização de dados anonimizados pelo NHS e as orientações do NIST, demonstram que a utilização de IA com grandes volumes de dados já ocorre em diferentes contextos. Esses casos reforçam que a segurança não deve depender somente da IA, mas de uma arquitetura na qual os dados sejam filtrados, os acessos sejam controlados e as atividades sejam monitoradas.
+
+Por fim, a principal conclusão do grupo é que a IA não deve substituir a atuação do DBA, mas aumentar a importância de sua função. O DBA passa a atuar de forma mais estratégica, definindo políticas de acesso, protegendo dados sensíveis, monitorando atividades, garantindo a conformidade e utilizando a própria IA para auxiliar na identificação de anomalias e na otimização do banco. Portanto, a distribuição segura de dados em ambientes que utilizam IA deve ser baseada em uma abordagem integrada, utilizando menor privilégio, roles, views, auditoria, proteção de dados e supervisão humana.
+
 ## Link do Repositório Git
 
 https://github.com/EnzoSuperCraftZ/ATIVIDADE-teorica-ia-dba-grupo-67-Negretti-Lima-Kail-Streitt
