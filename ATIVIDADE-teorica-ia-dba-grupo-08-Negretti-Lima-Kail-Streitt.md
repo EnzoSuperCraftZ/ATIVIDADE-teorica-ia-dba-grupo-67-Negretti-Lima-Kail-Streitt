@@ -3,7 +3,7 @@
 **Aluno(s):** Caio Negretti Honorato, Eduardo Guimarães Lima, Enzo Kail Vizalli e Pedro Streitt 
 **Turma:** Banco de Dados 2026  
 **Data:** 16/08/2026  
-**Repositório Git:** https://github.com/EnzoSuperCraftZ/ATIVIDADE-teorica-ia-dba-grupo-67-Negretti-Lima-Kail-Streitt
+**Repositório Git:** https://github.com/EnzoSuperCraftZ/ATIVIDADE-teorica-ia-dba-grupo-08-Negretti-Lima-Kail-Streitt
 
 
 ## Resumo Executivo
@@ -179,4 +179,4 @@ Por fim, a principal conclusão do grupo é que a IA não deve substituir a atua
 
 ## Link do Repositório Git
 
-https://github.com/EnzoSuperCraftZ/ATIVIDADE-teorica-ia-dba-grupo-67-Negretti-Lima-Kail-Streitt
+https://github.com/EnzoSuperCraftZ/ATIVIDADE-teorica-ia-dba-grupo-08-Negretti-Lima-Kail-Streitt
